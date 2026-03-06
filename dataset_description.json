@@ -1,0 +1,49 @@
+{
+	"Name": "Wang2016",
+	"BIDSVersion": "1.9.0",
+	"HEDVersion": "8.4.0",
+	"DatasetType": "derivative",
+	"License": "CC-BY-4.0",
+	"Authors": [
+		"Yijun Wang",
+		"Xiaogang Chen",
+		"Xiaorong Gao",
+		"Shangkai Gao"
+	],
+	"Funding": [
+		"National Natural Science Foundation of China (No. 61431007, No. 91220301, and No. 91320202)",
+		"National High-tech R&D Program (863) of China (No. 2012AA011601)",
+		"Recruitment Program for Young Professionals",
+		"Young Talents Lift Project of Chinese Association of Science and Technology",
+		"PUMC Youth Fund (No. 3332016101)"
+	],
+	"EthicsApprovals": [
+		"Research Ethics Committee of Tsinghua University"
+	],
+	"ReferencesAndLinks": [
+		"http://bci.med.tsinghua.edu.cn/download.html"
+	],
+	"DatasetDOI": "doi:10.1109/TNSRE.2016.2627556",
+	"GeneratedBy": [
+		{
+			"CodeURL": "https://github.com/NeuroTechX/moabb",
+			"Name": "moabb",
+			"Description": "Mother of All BCI Benchmarks",
+			"Version": "1.4.3"
+		}
+	],
+	"SourceDatasets": [
+		{
+			"DOI": "10.1109/TNSRE.2016.2627556",
+			"URL": "http://bci.med.tsinghua.edu.cn/download.html"
+		}
+	],
+	"Keywords": [
+		"Brain\u2013computer interface (BCI)",
+		"electroencephalogram (EEG)",
+		"joint frequency and phase modulation (JFPM)",
+		"public data set",
+		"steady-state visual evoked potential (SSVEP)"
+	],
+	"PublicationYear": 2016
+}
