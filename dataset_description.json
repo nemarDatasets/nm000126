@@ -1,5 +1,5 @@
 {
-	"Name": "Wang2016",
+	"Name": "SSVEP Wang 2016 dataset",
 	"BIDSVersion": "1.9.0",
 	"HEDVersion": "8.4.0",
 	"DatasetType": "derivative",
@@ -23,7 +23,6 @@
 	"ReferencesAndLinks": [
 		"http://bci.med.tsinghua.edu.cn/download.html"
 	],
-	"DatasetDOI": "doi:10.1109/TNSRE.2016.2627556",
 	"GeneratedBy": [
 		{
 			"CodeURL": "https://github.com/NeuroTechX/moabb",
@@ -39,7 +38,7 @@
 		}
 	],
 	"Keywords": [
-		"Brain\u2013computer interface (BCI)",
+		"Brain–computer interface (BCI)",
 		"electroencephalogram (EEG)",
 		"joint frequency and phase modulation (JFPM)",
 		"public data set",
