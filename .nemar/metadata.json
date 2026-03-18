@@ -1,12 +1,44 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "Wang2016 – SSVEP Wang 2016 dataset",
+  "description": "A benchmark steady-state visual evoked potential (SSVEP) dataset comprising EEG recordings from 34 healthy subjects performing a 40-target brain-computer interface speller task. Subjects viewed flickering visual stimuli at frequencies ranging from 8 to 15.8 Hz with 0.2 Hz resolution, using a joint frequency and phase modulation approach. The dataset includes 64-channel EEG data sampled at 250 Hz with 6 trials per target frequency, providing a comprehensive resource for developing and validating SSVEP-based BCI algorithms.",
+  "methods_description": "EEG data were acquired using a Synamps2 system (Neuroscan, Inc.) at 1000 Hz sampling rate with 64 channels positioned according to the international 10-20 system, referenced to vertex (Cz). Online filters included a bandpass filter (0.15-200 Hz) and 50 Hz notch filter. Electrode impedances were maintained below 10 kΩ. Continuous EEG was segmented into 6-second epochs (0.5 s pre-stimulus, 5.5 s post-stimulus) and downsampled to 250 Hz. Subjects performed a cue-guided target selection task with 40 flickering characters presented in a 5×8 matrix on a 23.6-inch LCD monitor at 60 Hz refresh rate, viewed from 70 cm distance.",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
   "authors": {
     "Yijun Wang": {},
     "Xiaogang Chen": {},
     "Xiaorong Gao": {},
     "Shangkai Gao": {}
   },
+  "keywords": [
+    {
+      "term": "steady-state visual evoked potential"
+    },
+    {
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
+    },
+    {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "SSVEP"
+    },
+    {
+      "term": "BCI speller"
+    },
+    {
+      "term": "frequency modulation"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.1109/TNSRE.2016.2627556",
@@ -52,14 +84,11 @@
       "award_number": "3332016101"
     }
   ],
-  "title": "SSVEP Wang 2016 dataset",
-  "license": "CC-BY-4.0",
-  "dataset_type": "derivative",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
     "3.4 GB (36 files)"
   ],
@@ -72,34 +101,5 @@
     ".yaml",
     ".yml"
   ],
-  "description": "A steady-state visual evoked potential (SSVEP) brain-computer interface dataset comprising EEG recordings from 34 healthy subjects performing a 40-target speller task using joint frequency and phase modulation. The dataset includes 64-channel EEG data sampled at 250 Hz with stimuli spanning frequencies from 8 to 15.8 Hz at 0.2 Hz resolution, designed to support BCI research and algorithm benchmarking.",
-  "methods_description": "EEG data were acquired using a Synamps2 system (Neuroscan) with 64 electrodes referenced to Cz, sampled at 1000 Hz and downsampled to 250 Hz. Subjects performed a cue-guided target selection task on a 5×8 stimulus matrix displayed on a 23.6-inch LCD monitor at 60 Hz. Each trial consisted of a 0.5 s cue followed by 5 s of visual stimulation at frequencies ranging from 8 to 15.8 Hz with 0.2 Hz resolution. Online bandpass filtering (0.15–200 Hz) and 50 Hz notch filtering were applied during acquisition.",
-  "keywords": [
-    {
-      "term": "steady-state visual evoked potential"
-    },
-    {
-      "term": "Brain-Computer Interfaces",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
-    },
-    {
-      "term": "Electroencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
-    },
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "SSVEP"
-    },
-    {
-      "term": "joint frequency and phase modulation"
-    },
-    {
-      "term": "BCI speller"
-    }
-  ],
-  "source_hash": "cf39e56d9b7bba34ca2087090e8416e21918895b268c36c64bc0bc7ec173d45c"
+  "source_hash": "9e2f71d5bc295d820d6d57fafad07eb67b68efc85b1ff718981e72218836c2da"
 }
