@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Wang2016 – SSVEP Wang 2016 dataset",
-  "description": "A benchmark steady-state visual evoked potential (SSVEP) dataset comprising EEG recordings from 34 healthy subjects performing a 40-target brain-computer interface speller task using joint frequency and phase modulation. The dataset includes 64-channel EEG data sampled at 250 Hz with visual stimuli flickering at frequencies ranging from 8 to 15.8 Hz, designed to facilitate the development and evaluation of SSVEP-based BCI algorithms.",
-  "methods_description": "EEG data were acquired using a Synamps2 system (Neuroscan, Inc.) at 1000 Hz sampling rate with 64 channels positioned according to the international 10-20 system, referenced to vertex (Cz). A notch filter at 50 Hz was applied during recording. Continuous EEG was segmented into 6-second epochs (500 ms pre-stimulus, 5.5 s post-stimulus) and downsampled to 250 Hz. Subjects performed a cue-guided target selection task with 40 visual stimuli flickering at different frequencies, completing 6 blocks of 40 trials each.",
+  "description": "A benchmark steady-state visual evoked potential (SSVEP) dataset comprising 64-channel EEG recordings from 34 healthy subjects performing a 40-target brain-computer interface speller task using joint frequency and phase modulation. The dataset includes 6 trials per target frequency (8–15.8 Hz) with 5-second visual stimulation epochs, providing a standardized resource for developing and evaluating SSVEP-based BCI algorithms.",
+  "methods_description": "EEG data were acquired using a Synamps2 system (Neuroscan, Inc.) at 1000 Hz sampling rate with 64 channels positioned according to the international 10-20 system, referenced to vertex (Cz). Online filters included a bandpass filter (0.15–200 Hz) and 50 Hz notch filter. Continuous recordings were segmented into 6-second epochs (0.5 s pre-stimulus, 5 s stimulation, 0.5 s post-stimulus) and downsampled to 250 Hz. Subjects performed a cue-guided target selection task with 40 visual flicker stimuli presented on a 5×8 matrix at frequencies ranging from 8 to 15.8 Hz (0.2 Hz intervals).",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -14,27 +14,29 @@
   },
   "keywords": [
     {
-      "term": "steady-state visual evoked potential"
-    },
-    {
       "term": "Brain-Computer Interfaces",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
     },
     {
-      "term": "EEG"
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    },
+    {
+      "term": "steady-state visual evoked potential"
     },
     {
       "term": "SSVEP"
     },
     {
-      "term": "BCI speller"
+      "term": "visual stimulation"
     },
     {
       "term": "frequency modulation"
     },
     {
-      "term": "visual stimulation"
+      "term": "benchmark dataset"
     }
   ],
   "related_identifiers": [
@@ -100,5 +102,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "6350c1b2612435a5f05fcc8c21b926880ecd7fb0a8ecb7d8ee6e2022cbc4f67b"
+  "source_hash": "eaaf33c333d710f0a0eb059785b8868e0dd361d0b2062a479a579fa569d5365d"
 }
