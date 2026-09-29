@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Wang2016 – SSVEP Wang 2016 dataset",
-  "description": "A benchmark steady-state visual evoked potential (SSVEP) dataset comprising 64-channel EEG recordings from 34 healthy subjects performing a 40-target brain-computer interface speller task using joint frequency and phase modulation. The dataset includes 6 trials per target frequency (8–15.8 Hz) with 5-second visual stimulation epochs, providing a standardized resource for developing and evaluating SSVEP-based BCI algorithms.",
-  "methods_description": "EEG data were acquired using a Synamps2 system (Neuroscan, Inc.) at 1000 Hz sampling rate with 64 channels positioned according to the international 10-20 system, referenced to vertex (Cz). Online filters included a bandpass filter (0.15–200 Hz) and 50 Hz notch filter. Continuous recordings were segmented into 6-second epochs (0.5 s pre-stimulus, 5 s stimulation, 0.5 s post-stimulus) and downsampled to 250 Hz. Subjects performed a cue-guided target selection task with 40 visual flicker stimuli presented on a 5×8 matrix at frequencies ranging from 8 to 15.8 Hz (0.2 Hz intervals).",
+  "description": "A benchmark SSVEP-based brain-computer interface dataset with EEG recordings from 34 healthy participants (35 in the original publication) who gazed at 40 flickering characters in a speller. The characters were coded with joint frequency and phase modulation (8-15.8 Hz in 0.2 Hz steps). Each participant completed 6 blocks of 40 trials with 64-channel EEG recorded at 1000 Hz and downsampled to 250 Hz. Data are provided as epochs with 0.5 s before and after each 5 s stimulation period.",
+  "methods_description": "EEG was recorded with a Synamps2 system (Neuroscan) using 64 scalp channels, a 0.15-200 Hz passband, a 50 Hz notch filter, a vertex reference and impedances below 10 kΩ. Stimuli were presented on a 23.6-inch 60 Hz LCD monitor using sampled sinusoidal stimulation in a 5x8 matrix. Each trial began with a 0.5 s cue, followed by 5 s of flicker and a 0.5 s blank. Continuous data were epoched around stimulus onsets and downsampled from 1000 to 250 Hz without digital filtering.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -14,29 +14,22 @@
   },
   "keywords": [
     {
-      "term": "Brain-Computer Interfaces",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
-    },
-    {
-      "term": "Electroencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
-    },
-    {
-      "term": "steady-state visual evoked potential"
+      "term": "EEG"
     },
     {
       "term": "SSVEP"
     },
     {
-      "term": "visual stimulation"
+      "term": "brain-computer interface"
     },
     {
-      "term": "frequency modulation"
+      "term": "joint frequency and phase modulation"
     },
     {
-      "term": "benchmark dataset"
+      "term": "visual evoked potentials"
+    },
+    {
+      "term": "speller"
     }
   ],
   "related_identifiers": [
@@ -90,7 +83,7 @@
     "eeg"
   ],
   "sizes": [
-    "7.0 GB (70 files)"
+    "6.48 GB (70 files)"
   ],
   "formats": [
     ".html",
