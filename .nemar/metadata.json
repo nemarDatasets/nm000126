@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Wang2016 – SSVEP Wang 2016 dataset",
-  "description": "A benchmark SSVEP-based brain-computer interface dataset with EEG recordings from 34 healthy participants (35 in the original publication) who gazed at 40 flickering characters in a speller. The characters were coded with joint frequency and phase modulation (8-15.8 Hz in 0.2 Hz steps). Each participant completed 6 blocks of 40 trials with 64-channel EEG recorded at 1000 Hz and downsampled to 250 Hz. Data are provided as epochs with 0.5 s before and after each 5 s stimulation period.",
-  "methods_description": "EEG was recorded with a Synamps2 system (Neuroscan) using 64 scalp channels, a 0.15-200 Hz passband, a 50 Hz notch filter, a vertex reference and impedances below 10 kΩ. Stimuli were presented on a 23.6-inch 60 Hz LCD monitor using sampled sinusoidal stimulation in a 5x8 matrix. Each trial began with a 0.5 s cue, followed by 5 s of flicker and a 0.5 s blank. Continuous data were epoched around stimulus onsets and downsampled from 1000 to 250 Hz without digital filtering.",
+  "description": "A benchmark SSVEP-based brain-computer interface dataset with 64-channel EEG recorded from 35 healthy participants (34 listed in the metadata) who gazed at 40 flickering characters. Targets were coded by joint frequency and phase modulation (8-15.8 Hz in 0.2 Hz steps). Each participant completed 6 blocks of 40 trials with 5 s stimulation. Epochs were downsampled to 250 Hz and distributed as a BIDS derivative.",
+  "methods_description": "EEG was recorded with a Synamps2 system (Neuroscan) at 1000 Hz with a 0.15-200 Hz passband and a 50 Hz notch filter, using 64 scalp electrodes with a vertex reference and impedances below 10 kOhm. Stimuli were presented on a 23.6-inch LCD at 60 Hz using sampled sinusoidal stimulation in a 5x8 matrix. Each 6 s trial had a 0.5 s cue, 5 s flicker and 0.5 s blank. Continuous data were epoched around stimulus onsets and downsampled to 250 Hz with no digital filtering.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -17,19 +17,23 @@
       "term": "EEG"
     },
     {
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
+    },
+    {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    },
+    {
+      "term": "steady-state visual evoked potential"
+    },
+    {
       "term": "SSVEP"
     },
     {
-      "term": "brain-computer interface"
-    },
-    {
       "term": "joint frequency and phase modulation"
-    },
-    {
-      "term": "visual evoked potentials"
-    },
-    {
-      "term": "speller"
     }
   ],
   "related_identifiers": [
@@ -51,6 +55,9 @@
   ],
   "funding_references": [
     {
+      "funder_name": "National Natural Science Foundation of China (No. 61431007, No. 91220301, and No. 91320202)"
+    },
+    {
       "funder_name": "Recruitment Program for Young Professionals"
     },
     {
@@ -58,15 +65,7 @@
     },
     {
       "funder_name": "National Natural Science Foundation of China",
-      "award_number": "61431007"
-    },
-    {
-      "funder_name": "National Natural Science Foundation of China",
-      "award_number": "91220301"
-    },
-    {
-      "funder_name": "National Natural Science Foundation of China",
-      "award_number": "91320202"
+      "award_number": "61431007, 91220301, 91320202"
     },
     {
       "funder_name": "National High-tech R&D Program (863) of China",
@@ -95,5 +94,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "eaaf33c333d710f0a0eb059785b8868e0dd361d0b2062a479a579fa569d5365d"
+  "source_hash": "16857cc1228163e256080ba1f1f6be382c4fe1f8475cd23de60fc39a721d0375"
 }
