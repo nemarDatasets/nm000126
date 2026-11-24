@@ -5,7 +5,7 @@ _dataset:
   interval:
   - 0.5
   - 5.5
-  n_subjects: 34
+  n_subjects: 35
   paradigm: ssvep
 abstract: This paper presents a benchmark steady-state visual evoked potential (SSVEP) dataset acquired with a 40-target brain–computer
   interface (BCI) speller. The dataset consists of 64-channel Electroencephalogram (EEG) data from 35 healthy subjects (8
@@ -285,7 +285,7 @@ participants:
     female: 17
     male: 18
   health_status: healthy
-  n_subjects: 34
+  n_subjects: 35
   species: human
 performance:
   itr_bits_per_min: 117.75
