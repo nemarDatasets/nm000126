@@ -8,8 +8,8 @@
  "license": "CC-BY-4.0",
  "doi": "10.1109/TNSRE.2016.2627556",
  "naming": "upstream_filenames_restored",
- "n_files": 34,
- "total_bytes": 3602191844,
+ "n_files": 35,
+ "total_bytes": 3708476638,
  "files": [
   {
    "file": "S1.mat",
@@ -180,6 +180,12 @@
    "subject": "34"
   },
   {
+   "file": "S35.mat",
+   "bytes": 106284794,
+   "sha256": "c65a51f1c5729b5fee65baa755f000df649c51e8169c3ba86f7bbe1962a9c32d",
+   "subject": "35"
+  },
+  {
    "file": "S4.mat",
    "bytes": 105147494,
    "sha256": "e23129762c7485d96b0a5a659f718f7284738e7407b15ea201a2612668ce4966",
@@ -216,5 +222,12 @@
    "subject": "9"
   }
  ],
- "n_subjects_recorded": 34
+ "n_subjects_recorded": 35,
+ "additions": [
+  {
+   "retrieved": "2026-11-23",
+   "n_files": 1,
+   "note": "S35.mat, retrieved from Zenodo record 14865172 by moabb.datasets.Wang2016.data_path() (moabb 1.8.0). Earlier moabb versions listed only subjects 1 to 34."
+  }
+ ]
 }
